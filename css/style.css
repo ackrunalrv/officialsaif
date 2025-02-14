@@ -223,8 +223,8 @@ section {
 .home-img img {
     position: absolute;
     bottom: 0;
-    right: 10rem;
-    width: 32%;
+    right: 1.5rem;
+    width: 45%;
     pointer-events: none;
 }
 
@@ -263,4 +263,3 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
-
