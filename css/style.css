@@ -39,6 +39,12 @@ body {
     display: flex;
     align-items: center;
     z-index: 100;
+    transition: .5s;
+}
+
+.header .sticky {
+    background-color: var(--bg-color);
+    box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
 
 .logo {
@@ -55,6 +61,10 @@ body {
     color: var(--white-color);
     font-weight: 500;
     margin-right: 3.5rem;
+}
+
+.header .sticky .navbar a {
+    color: var(--text-color);
 }
 
 .navbar a.active::before {
