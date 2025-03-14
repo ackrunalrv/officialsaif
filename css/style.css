@@ -87,7 +87,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/home.jpg') no-repeat;
+    background: url(../images/home.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -129,7 +129,7 @@ section {
 
 .home.show-animate .home-content .text-animate h3 {
     animation: homeCursorText 6s linear infinite;
-    animation-delay: 2s; 
+    animation-delay: 2s;
 }
 
 .home-content .text-animate h3::before {
@@ -474,7 +474,7 @@ span {
 }
 
 .skills-column .skills-box {
-    position: relative ;
+    position: relative;
 }
 
 .skills-box .skills-content {
@@ -652,7 +652,7 @@ span {
 }
 
 .footer-text,
-.footer-iconTop{
+.footer-iconTop {
     position: relative;
 }
 
@@ -783,7 +783,7 @@ section:nth-child(odd) .animate.scroll,
     .animate.home-img {
         width: 55%;
     }
-} 
+}
 
 @media (max-width: 768px) {
     .header {
